@@ -18,7 +18,7 @@ def main():
     chars_sorted_list = chars_dict_to_sorted_list(chars_dict)
     print_report(book_path, num_words, chars_sorted_list)
 
-
+#commited
 def get_book_text(path):
     with open(path) as f:
         return f.read()
